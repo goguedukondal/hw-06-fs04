@@ -1,0 +1,54 @@
+.navbar{
+  width: 100%;
+  height: 10vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(215, 217, 218, 0.892);
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  /* justify-content: space-around; */
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+ color: gray;
+}
+.header_part{
+  display: flex;
+  flex-direction: row;
+ 
+  height: 54vh;
+}
+.left{
+  width: 60%;
+ 
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.happy{
+  height: 100%;
+  width: 500px;
+ 
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+  gap: 30px;
+  height: 36vh;
+}
